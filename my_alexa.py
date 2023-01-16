@@ -64,7 +64,7 @@ def run_surya():
         talk('bye bye sir')
         abc()
     elif '' in command:
-        talk('Bol Bhosdike')
+        talk('speak something')
 
     
     elif 'jokes' in command:
