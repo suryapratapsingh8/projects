@@ -1,3 +1,5 @@
+
+
 # Python program to test
 # internet speed
 
@@ -19,11 +21,11 @@ Your Choice: '''))
 
 if option == 1:
 
-	print(st.download())
+	print(str(st.download()//1000000)+'MBPS')
 
 elif option == 2:
 
-	print(st.upload())
+	print(str(st.upload()//1000000)+ 'MBPS')
 
 elif option == 3:
 
@@ -31,8 +33,9 @@ elif option == 3:
 
 	st.get_servers(servernames)
 
-	print(st.results.ping)
+	print(str(st.results.ping)+'NMS')
 
 else:
 
 	print("Please enter the correct choice !")
+
